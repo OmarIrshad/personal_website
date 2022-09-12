@@ -1,0 +1,305 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+/* Reset CSS */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background: #202225;
+}
+img{
+    max-width: 100%
+}
+.container{
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
+
+/* Navigation Bar Styling */
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+.nav{
+    background: #2f3136;
+    height: 60px;
+
+}
+.nav ul{
+    list-style: none;;
+}
+.nav .logo a{
+    font-size: 40px;;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav a:hover {
+    color: #F64C72;
+}
+.nav .menu{
+    display:flex;
+}
+.nav ul li{
+    margin-left: 20px;
+}
+/* Home Page Styling */
+.index--main img {
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.index--main .container {
+    display: flex;
+}
+.index--main h1 {
+    font-size: 7rem;
+    color: #F64C72
+}
+.index--main p {
+    font-size: 2rem;
+}
+
+.index__buttons{
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
+
+
+
+/* About me Styling */
+.about .container{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.about p {
+    font-size:  0.900em;
+}
+
+.about--para{
+    max-width: 50%;
+}
+
+.container--pics {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.about img{
+    margin:0 2rem;
+    padding: 5px;
+    width: 210px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.about a{
+    color:#F64C72;
+}
+.about a:visited{
+    color:#F64C72;
+}
+
+
+
+/*Technical Portfolio Styling */
+
+
+/*Projects Styling*/
+.projects .container {
+    display: flex;
+    position: relative;
+}
+
+.projects .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects .img {
+    width: 200px;
+    margin:auto;
+}
+
+.projects_img1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+    
+}
+
+.projects_img2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+}
+
+
+.projects_img3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+}
+
+.projects_img4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+    
+}
+.projects_img5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+    
+
+}
+.projects_img6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    width: 33%;
+
+}
+
+.projects a:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+ 
+
+.projects .p  {
+    text-align: center;
+}
+/*Services Styling*/
+
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.services .img {
+    width: 200px;
+    margin:auto;
+}
+
+    
+.services .services__pd 
+{
+    padding: 5px;
+}
+.services .services__clic 
+{
+    padding: 5px;
+}
+
+
+.services a:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/*Qualifications styling */
+.qualifications {
+    text-align: center;
+    padding: 5px;
+    
+}
+.qualifications ul {
+    list-style-type: none;
+}
+.qualifications li {
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+.qualifications .container {
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+}
+
+.qualifications_resume {
+    width: 33%;
+    height: auto;
+} 
+.qualifications_skill {
+    width: 33%;
+    height: auto;
+} 
+.qualifications_interests {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+} 
+.qualifications_interests .h {
+    height: 20%;
+
+}
+.qualifications_head {
+    height: 100px;
+}
+.qualifications_para {
+    height: 80%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.qualifications a:hover img {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+@media(max-width: 768px){
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+}

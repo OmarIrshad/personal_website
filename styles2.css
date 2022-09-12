@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+/* Reset CSS */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    background: #5CDB95;
+}
+img{
+    max-width: 100%
+}
+.container{
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
+
+/*Nav bar Styling */ 
+.logo {
+    display: none;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+.nav{
+    background: #2f3136;
+    height: 60px;
+
+}
+.nav ul{
+    list-style: none;;
+}
+.nav .logo a{
+    font-size: 40px;;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav .menu{
+    display:flex;
+}
+.nav ul li{
+    margin-left: 130px;
+}
+
+.nav a:hover {
+    color: #5CDB95;
+}
+
+
+/* About Me */
+.about .container{
+    text-align: center;
+    padding: 5px;
+}
+
+
+/*Index Styling*/
+
+.index--photo{
+    display: none;
+}
+
+.index--main .container{
+    text-align: center;
+
+}
+.index--text {
+    font-size: 50px;
+}
+
+.index__buttons{
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
+/*Projects Styling */
+.projects .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding:5px;
+}
+
+.projects a:hover img {
+    transform: scale(0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Services Styling*/
+.services .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.services .h1{
+    text-decoration: underline;
+}
+.services a:hover img {
+    transform: scale(0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects_img1 {
+    padding: 5px;
+}
+.projects_img2 {
+    padding: 5px;
+}
+.projects_img3 {
+    padding: 5px;
+}
+.projects_img4 {
+    padding: 5px;
+}
+.projects_img5 {
+    padding: 5px;
+}
+.projects_img6 {
+    padding: 5px;
+}
+
+/*Qualifications */
+.qualifications .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.qualifications ul {
+    list-style-type: none;
+}
+
+.qualifications li {
+    margin: 20px 0;;
+}
+
+.qualifications a:hover img {
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.qualifications_resume{
+    padding: 5px;
+}
+.qualifications_skill{
+    padding: 5px;
+}
+.qualifications_interests{
+    padding: 5px;
+}
